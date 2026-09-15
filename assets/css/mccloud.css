@@ -1,0 +1,18 @@
+/* MC Cloud — customização do template Ethereal */
+:root { --mc-accent: #d9a441; }
+.mc-logo { letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+.mc-kicker { letter-spacing: .24em; text-transform: uppercase; font-size: .78rem; opacity: .8; }
+.mc-signature { font-family: Georgia, serif; font-style: italic; letter-spacing: .03em; }
+.mc-meta { margin-top: 1.2rem; opacity: .82; }
+.mc-services li { text-align: center; }
+.mc-services .icon { font-size: 2rem; margin-bottom: .75rem; }
+.mc-services strong { display:block; margin-bottom:.35rem; }
+.mc-cta { display:flex; flex-wrap:wrap; gap:.7rem; }
+#form-status { margin-top: 1rem; padding: .85rem 1rem; border: 1px solid rgba(255,255,255,.35); display:none; }
+#form-status.is-visible { display:block; }
+.contact-icons a { word-break: break-word; }
+.copyright { text-transform: none; }
+@media screen and (max-width: 736px) {
+  .mc-cta { display:block; }
+  .mc-cta li { margin-bottom:.5rem; }
+}
